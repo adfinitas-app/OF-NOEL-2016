@@ -13,3 +13,47 @@
 	font-weight: 600;
 	color: #1c5061;
 }
+
+#slide-don
+{
+	background-color: #fe8900;
+}
+
+#slide-isol
+{
+	background-color: #ebf6f3;
+}
+#slide-isol > h2
+{
+	margin-right: 20px;
+	margin-left: 20px;
+	max-width: 1200px;
+	display: inline-block;
+}
+
+.slide
+{
+	padding: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.button
+{
+	border: none;
+	outline: none;
+	box-shadow: none;
+	background: none;
+	margin: 0px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 3px;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	background: rgba(255,255,255,0.1);
+}
