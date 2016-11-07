@@ -1,5 +1,18 @@
-.title {
 
+
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	color: #1f7795;
+	margin: 0;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-weight: 600;
+	line-height: 1.2;
 }
 
 #oeuvres-falret {
@@ -8,10 +21,138 @@
 	max-width: 100%;
 }
 
+.text-box-actions {
+	font-family: 'Open Sans';
+	padding-top: 30px;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 600;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.box-actions {
+	padding: 0;
+	height: 450px;
+}
+
+.box-in-actions {
+	width: 100%;
+	height: 400px;
+
+}
+.box-actions.un {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: #1fe4c1;
+}
+
+.box-actions.deux {
+	background: #ffbf42;
+}
+
+.block-title {
+	margin: 15px;
+}
+
 .text-of {
 	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #1c5061;
+}
+
+.text-of.title {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.open-sans-700 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+}
+
+.white {
+	color: white;
+}
+
+.box-don {
+	border: 1px solid rgba(31, 119, 149, 0.4);
+	border-radius: 5px;
+	padding: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 40px;
+	max-width: 700px;
+	max-height: 200px;
+}
+
+.space {
+	margin-top: 20px;
+}
+
+.border-center { 
+	width: 100%;
+	position: relative;
+}
+
+.border-center:before { 
+	content: '';
+	position: absolute;
+	bottom: 50%;
+	border-bottom: 1px white solid;
+	right: 130px;
+	width: 200px;
+}
+.chiffre-don {
+	display: inline-block;
+	font-size: 80px;
+	line-height: 0.8;
+	font-weight: 600;
+}
+
+.euro {
+	font-weight: 600;
+	line-height: 0.5;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px !important;
+	font-size: 40px;
+}
+
+.text-don {
+	color: #1f7795;
+	font-family: 'Open Sans';
+	margin: 0;
+}
+
+.text-don.description {
+	font-size: 19px;
+	line-height: 1.1;
+}
+
+.text-deduction {
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+.border-center:after { 
+	content: '';
+	position: absolute;
+	bottom: 50%;
+	border-bottom: 1px white solid;
+	left: 130px;
+	width: 200px;
+}
+
+.block-of {
+	padding: 20px;
+}
+
+.border-left-of {
+	border-left: 1px solid white;
 }
 
 #slide-don
@@ -100,7 +241,65 @@
 	cursor: pointer;
 }
 
+.btn-custom {
+	width: 200px;
+	height: 50px;
+	background: #fe8900;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.button.btn-custom:hover,
+.button.btn-custom:focus {
+	background: #fe8900;
+
+}
+
 .button:hover
 {
 	background: rgba(255,255,255,0.1);
+}
+
+@media screen and (max-width: 870px) {
+	.border-center:before {
+		width: 100px;
+	}
+	.border-center:after {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 1210px) {
+	.border-center:before {
+		width: 200px;
+	}
+	.border-center:after {
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1210px) {
+	.border-center:before {
+		width: 100px;
+	}
+	.border-center:after {
+		width: 100px;
+	}
+}
+
+
+@media screen and (max-width: 1010px) {
+	.border-center:before {
+		right: 100px;
+	}
+	.border-center:after {
+		left: 100px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.border-center:before,
+	.border-center:after {
+		border: none;
+	}
 }
