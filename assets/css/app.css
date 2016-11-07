@@ -22,13 +22,60 @@
 #slide-isol
 {
 	background-color: #ebf6f3;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-image: url('https://s3.amazonaws.com/heroku-adfinitas-campaign/OF-lp-noel-2016/img-teeths-white.png');
+	padding-bottom: 40px;
 }
 #slide-isol > h2
 {
 	margin-right: 20px;
 	margin-left: 20px;
-	max-width: 1200px;
+	max-width: 700px;
+	text-transform: uppercase;
+	line-height: 1.2;
 	display: inline-block;
+}
+
+#slide-gp
+{
+
+}
+
+#slide-gp > h2, #slide-gp > h3
+{
+	line-height: 1.2;
+	margin-bottom: 0px;
+}
+
+
+.slide-chart
+{
+	display: inline-block;
+	width: 100%;
+	background: url('https://s3.amazonaws.com/heroku-adfinitas-campaign/OF-lp-noel-2016/img-curve.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.box-consequence
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.box-consequence > p
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	font-weight: 500;
+	position: absolute;
+	top: 45px;
+	right: 0;
+	left: 0;
 }
 
 .slide
