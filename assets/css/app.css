@@ -60,22 +60,22 @@
 }
 
 .box-benefice:nth-child(1) {
-	border-top: 1px solid rgba(31, 119, 149, 0.2);
-	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
-	border-right: 1px solid rgba(31, 119, 149, 0.2);
+	border-top: 1px solid rgba(238, 246, 247, 1);
+	border-bottom: 1px solid rgba(238, 246, 247, 1);
+	border-right: 1px solid rgba(238, 246, 247, 1);
 }
 
 .box-benefice:nth-child(2) {
-	border-top: 1px solid rgba(31, 119, 149, 0.2);
-	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+	border-top: 1px solid rgba(238, 246, 247, 1);
+	border-bottom: 1px solid rgba(238, 246, 247, 1);
 }
 
 .box-benefice:nth-child(3) {
-	border-right: 1px solid rgba(31, 119, 149, 0.2);
-	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+	border-right: 1px solid rgba(238, 246, 247, 1);
+	border-bottom: 1px solid rgba(238, 246, 247, 1);
 }
 .box-benefice:nth-child(4) {
-	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+	border-bottom: 1px solid rgba(238, 246, 247, 1);
 }
 
 #oeuvres-falret {
@@ -455,7 +455,7 @@
 	}
 
 	.box-benefice:nth-child(1) {
-		border-top: 1px solid rgba(31, 119, 149, 0.2);
+		border-top: 1px solid rgba(238, 246, 247, 1);
 		border-bottom: none;
 		border-right: none;
 	}
@@ -470,7 +470,7 @@
 		border-bottom: none;
 	}
 	.box-benefice:nth-child(4) {
-		border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+		border-bottom: 1px solid rgba(238, 246, 247, 1);
 	}
 
 	.text-deduction {
