@@ -20,14 +20,77 @@
 	line-height: 1.2;
 }
 
+.box-benefice {
+	height: 280px;
+	text-align: center;
+	margin: 0;
+	padding: 70px;
+}
+
+.box-benefice img {
+	margin-bottom: 10px;
+}
+
+.box-benefice p {
+	line-height: 1.2;
+	color: #287e9a;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+
+.box-benefice.other {
+	padding: 50px;
+	text-align: left;
+}
+.box-benefice.other p {
+	font-family: 'Open Sans'; 
+	font-weight: 600; 
+	color: #1fe4c1; 
+	font-size: 28px; 
+	font-style: italic; 
+	line-height: 1.2;
+}
+.box-benefice.other img {
+	margin-bottom: 0;
+}
+
+.box-benefice.small img {
+	margin-top: 15px;
+}
+
+.box-benefice:nth-child(1) {
+	border-top: 1px solid rgba(31, 119, 149, 0.2);
+	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+	border-right: 1px solid rgba(31, 119, 149, 0.2);
+}
+
+.box-benefice:nth-child(2) {
+	border-top: 1px solid rgba(31, 119, 149, 0.2);
+	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+}
+
+.box-benefice:nth-child(3) {
+	border-right: 1px solid rgba(31, 119, 149, 0.2);
+	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+}
+.box-benefice:nth-child(4) {
+	border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+}
+
 #oeuvres-falret {
 	background: #499baa;
 	text-align: center;
 	max-width: 100%;
 }
 
-#comment {
+#comment, #benefice {
 	padding-bottom: 0;
+}
+
+#benefice > h2 {
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .container-box-actions {
@@ -160,6 +223,10 @@
 	line-height: 1.2;
 	font-weight: 600;
 }
+.text-deduction.other {
+	text-align: left; 
+	margin-top: 5px;
+}
 
 .border-center:after { 
 	content: '';
@@ -172,6 +239,10 @@
 
 .block-of {
 	padding: 20px;
+}
+
+.block-of img {
+	margin-bottom: 10px;
 }
 
 .border-left-of {
@@ -341,5 +412,39 @@
 	.border-center:before,
 	.border-center:after {
 		border: none;
+	}
+
+	.box-benefice:nth-child(1) {
+		border-top: 1px solid rgba(31, 119, 149, 0.2);
+		border-bottom: none;
+		border-right: none;
+	}
+
+	.box-benefice:nth-child(2) {
+		border-top: none;
+		border-bottom: none;
+	}
+
+	.box-benefice:nth-child(3) {
+		border-right: none;
+		border-bottom: none;
+	}
+	.box-benefice:nth-child(4) {
+		border-bottom: 1px solid rgba(31, 119, 149, 0.2);
+	}
+
+	.text-deduction {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.text-deduction.other {
+		text-align: center;
+	}
+
+	.box-don {
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: center;
+		max-height: 400px;
 	}
 }
