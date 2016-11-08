@@ -125,8 +125,8 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 400px;
-
 }
+
 .box-actions.un {
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -254,13 +254,25 @@
 	background-color: #fe8900;
 }
 
+#slide-isol, #slide-besoins
+{
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 40px;
+}
 #slide-isol
 {
 	background-color: #ebf6f3;
-	background-repeat: repeat-x;
-	background-position: bottom;
 	background-image: url('https://s3.amazonaws.com/heroku-adfinitas-campaign/OF-lp-noel-2016/img-teeths-white.png');
-	padding-bottom: 40px;
+}
+#slide-besoins
+{
+	background-color: white;
+	background-image: url('https://s3.amazonaws.com/heroku-adfinitas-campaign/OF-lp-noel-2016/img-teeths-orange.png');
+}
+#slide-besoins > img
+{
+	margin: 30px;
 }
 #slide-isol > h2
 {
@@ -299,7 +311,35 @@
 	color: #7fbcc3;
 	margin-bottom: 30px;
 }
-
+#slide-projet
+{
+	background-color: #f89c3e;
+}
+#slide-projet > *
+{
+	margin: 5px;
+}
+#slide-projet > img
+{
+	margin-bottom: 10px;
+}
+#slide-projet > div > button
+{
+	width: 100% !important;
+	margin-bottom: 10px;
+	display: block;
+	font-family: "Open Sans";
+	font-weight: 500;
+}
+#slide-projet > div > button:first-child
+{
+	font-size: 22px;
+}
+#slide-projet > div > button:nth-child(2)
+{
+	font-size: 15px;
+	border-color: #fe8900;
+}
 .slide-chart
 {
 	display: inline-block;
@@ -345,7 +385,7 @@
 	font-size: 18px;
 	margin: 0px;
 	color: white;
-	border: 2px solid white;
+	border: 1px solid white;
 	border-radius: 3px;
 	text-transform: uppercase;
 	transition: all .3s ease;
