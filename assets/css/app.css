@@ -259,6 +259,7 @@
 
 #slide-don
 {
+	padding-top: 24px;
 	background-color: #fe8900;
 }
 
@@ -280,7 +281,7 @@
 }
 #slide-besoins > img
 {
-	margin: 30px;
+	padding: 30px;
 }
 #slide-isol > h2
 {
