@@ -7,13 +7,15 @@
 .title {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans';
+	font-family: 'Arial Rounded';
 	color: #1f7795;
 	margin: 0;
-	font-weight: 700;
+	font-weight: 400;
+	line-height: 1.2;
 }
 
 .subtitle {
+	font-family: 'Open Sans';
 	font-weight: 600;
 	line-height: 1.2;
 }
