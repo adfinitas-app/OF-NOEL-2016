@@ -1,5 +1,8 @@
-
-
+@font-face {
+	font-family: 'Arial Rounded';
+	src: url('/assets/fonts/ArialRoundedBold.ttf') format("truetype");
+	font-weight: bold;
+}
 
 .title {
 	text-align: center;
@@ -194,6 +197,9 @@
 	text-transform: uppercase;
 	line-height: 1.2;
 	display: inline-block;
+	color: #1f7795;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 
 #slide-gp
@@ -205,8 +211,21 @@
 {
 	line-height: 1.2;
 	margin-bottom: 0px;
+	font-family: 'Arial Rounded';
+	font-weight: bold;
 }
 
+#slide-gp > h2
+{
+	color: #f8a34a;
+	text-transform: 
+}
+
+#slide-gp > h3
+{
+	color: #7fbcc3;
+	margin-bottom: 30px;
+}
 
 .slide-chart
 {
@@ -250,6 +269,7 @@
 	outline: none;
 	box-shadow: none;
 	background: none;
+	font-size: 18px;
 	margin: 0px;
 	color: white;
 	border: 2px solid white;
